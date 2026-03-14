@@ -1,286 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="0" failed="2" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-10T12:47:21 IST" name="Suite" finished-at="2025-12-10T12:47:34 IST" duration-ms="12641">
+  <suite started-at="2026-03-14T13:22:45 IST" name="Default suite" finished-at="2026-03-14T13:23:11 IST" duration-ms="26517">
     <groups>
     </groups>
-    <test started-at="2025-12-10T12:47:21 IST" name="Test" finished-at="2025-12-10T12:47:34 IST" duration-ms="12641">
-      <class name="testpkg.HomeSauseTest">
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:29 IST" name="beforemtd" finished-at="2025-12-10T12:47:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="textverify()[pri:1, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:29 IST" name="textverify" finished-at="2025-12-10T12:47:30 IST" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textverify -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="browserclose" finished-at="2025-12-10T12:47:30 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=textverify status=SUCCESS method=HomeSauseTest.textverify()[pri:1, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="beforemtd" finished-at="2025-12-10T12:47:30 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="dropdownclk()[pri:2, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="dropdownclk" finished-at="2025-12-10T12:47:30 IST" duration-ms="552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownclk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="browserclose" finished-at="2025-12-10T12:47:30 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=dropdownclk status=SUCCESS method=HomeSauseTest.dropdownclk()[pri:2, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="beforemtd" finished-at="2025-12-10T12:47:30 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="addcartBtn()[pri:3, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:30 IST" name="addcartBtn" finished-at="2025-12-10T12:47:31 IST" duration-ms="863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addcartBtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="browserclose" finished-at="2025-12-10T12:47:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addcartBtn status=SUCCESS method=HomeSauseTest.addcartBtn()[pri:3, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="beforemtd" finished-at="2025-12-10T12:47:31 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="titleVerify()[pri:4, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="titleVerify" finished-at="2025-12-10T12:47:31 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleVerify -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="browserclose" finished-at="2025-12-10T12:47:31 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=titleVerify status=SUCCESS method=HomeSauseTest.titleVerify()[pri:4, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="beforemtd" finished-at="2025-12-10T12:47:31 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="MainCartBtn()[pri:5, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="MainCartBtn" finished-at="2025-12-10T12:47:31 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MainCartBtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="browserclose" finished-at="2025-12-10T12:47:31 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MainCartBtn status=SUCCESS method=HomeSauseTest.MainCartBtn()[pri:5, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="beforemtd" finished-at="2025-12-10T12:47:31 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="checkOutBtn()[pri:6, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="checkOutBtn" finished-at="2025-12-10T12:47:31 IST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOutBtn -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.HomeSauseTest@a514af7]" started-at="2025-12-10T12:47:31 IST" name="browserclose" finished-at="2025-12-10T12:47:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkOutBtn status=SUCCESS method=HomeSauseTest.checkOutBtn()[pri:6, instance:testpkg.HomeSauseTest@a514af7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-      </class> <!-- testpkg.HomeSauseTest -->
-      <class name="testpkg.CheckoutTest">
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:31 IST" name="beforemtd" finished-at="2025-12-10T12:47:31 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="checkText()[pri:1, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:31 IST" name="checkText" finished-at="2025-12-10T12:47:31 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkText -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:31 IST" name="browserclose" finished-at="2025-12-10T12:47:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkText status=SUCCESS method=CheckoutTest.checkText()[pri:1, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:31 IST" name="beforemtd" finished-at="2025-12-10T12:47:31 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="fillValues()[pri:2, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:31 IST" name="fillValues" finished-at="2025-12-10T12:47:32 IST" duration-ms="390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillValues -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="browserclose" finished-at="2025-12-10T12:47:32 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=fillValues status=SUCCESS method=CheckoutTest.fillValues()[pri:2, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="beforemtd" finished-at="2025-12-10T12:47:32 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="continueBtnClk()[pri:3, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="continueBtnClk" finished-at="2025-12-10T12:47:32 IST" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- continueBtnClk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="browserclose" finished-at="2025-12-10T12:47:32 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=continueBtnClk status=SUCCESS method=CheckoutTest.continueBtnClk()[pri:3, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="beforemtd" finished-at="2025-12-10T12:47:32 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="finishBtnClk()[pri:4, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="finishBtnClk" finished-at="2025-12-10T12:47:32 IST" duration-ms="146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finishBtnClk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="browserclose" finished-at="2025-12-10T12:47:32 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=finishBtnClk status=SUCCESS method=CheckoutTest.finishBtnClk()[pri:4, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="beforemtd" finished-at="2025-12-10T12:47:32 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="backBtnClk()[pri:5, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="backBtnClk" finished-at="2025-12-10T12:47:32 IST" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backBtnClk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="browserclose" finished-at="2025-12-10T12:47:32 IST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=backBtnClk status=SUCCESS method=CheckoutTest.backBtnClk()[pri:5, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="beforemtd" finished-at="2025-12-10T12:47:32 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="hmbgrBtnClk()[pri:6, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:32 IST" name="hmbgrBtnClk" finished-at="2025-12-10T12:47:33 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hmbgrBtnClk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:33 IST" name="browserclose" finished-at="2025-12-10T12:47:33 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=hmbgrBtnClk status=SUCCESS method=CheckoutTest.hmbgrBtnClk()[pri:6, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:33 IST" name="beforemtd" finished-at="2025-12-10T12:47:33 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemtd -->
-        <test-method signature="logoutBtnClk()[pri:7, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:33 IST" name="logoutBtnClk" finished-at="2025-12-10T12:47:33 IST" duration-ms="290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutBtnClk -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.CheckoutTest@6b927fb]" started-at="2025-12-10T12:47:33 IST" name="browserclose" finished-at="2025-12-10T12:47:33 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=logoutBtnClk status=SUCCESS method=CheckoutTest.logoutBtnClk()[pri:7, instance:testpkg.CheckoutTest@6b927fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-      </class> <!-- testpkg.CheckoutTest -->
-      <class name="testpkg.SauseDemoLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a]" started-at="2025-12-10T12:47:21 IST" name="setup" finished-at="2025-12-10T12:47:26 IST" duration-ms="4832" status="PASS">
+    <test started-at="2026-03-14T13:22:45 IST" name="Default test" finished-at="2026-03-14T13:23:11 IST" duration-ms="26517">
+      <class name="testpkg.HomeToolsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:22:45 IST" name="setup" finished-at="2026-03-14T13:22:55 IST" duration-ms="10303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a]" started-at="2025-12-10T12:47:26 IST" name="beforemtd" finished-at="2025-12-10T12:47:26 IST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:22:55 IST" name="beforemtd" finished-at="2026-03-14T13:22:55 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemtd -->
-        <test-method signature="test()[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a]" started-at="2025-12-10T12:47:26 IST" name="test" finished-at="2025-12-10T12:47:29 IST" duration-ms="2825" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="verifylinkCount()[pri:1, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:22:55 IST" name="verifylinkCount" finished-at="2026-03-14T13:23:10 IST" duration-ms="15418" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[URL does not match! expected [https://www.sauce.com/inventory.html] but found [https://www.saucedemo.com/inventory.html]]]>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\A\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51710}, goog:processID: 12688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51710/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6de237883984d776b1dfeed56a9cfc7]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: URL does not match! expected [https://www.sauce.com/inventory.html] but found [https://www.saucedemo.com/inventory.html]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at testpkg.SauseDemoLoginTest.test(SauseDemoLoginTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a], [[ChromeDriver: chrome on windows (b6de237883984d776b1dfeed56a9cfc7)] -> tag name: a]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.160, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\A\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51710}, goog:processID: 12688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51710/devtoo..., se:cdpVersion: 145.0.7632.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6de237883984d776b1dfeed56a9cfc7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pagepkg.HomePageTools.linkCount(HomePageTools.java:41)
+at testpkg.HomeToolsTest.verifylinkCount(HomeToolsTest.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -289,7 +46,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -307,26 +64,326 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="browserclose(org.testng.ITestResult)[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a]" started-at="2025-12-10T12:47:29 IST" name="browserclose" finished-at="2025-12-10T12:47:29 IST" duration-ms="416" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test status=FAILURE method=SauseDemoLoginTest.test()[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifylinkCount -->
+        <test-method is-config="true" signature="screenshotMethod(org.openqa.selenium.WebDriver,java.lang.String)[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="screenshotMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1773474791010" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="closeTest()[pri:0, instance:testpkg.SauseDemoLoginTest@4f18837a]" started-at="2025-12-10T12:47:33 IST" name="closeTest" finished-at="2025-12-10T12:47:34 IST" duration-ms="877" status="PASS">
+        </test-method> <!-- screenshotMethod -->
+        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="beforemtd" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeTest -->
-      </class> <!-- testpkg.SauseDemoLoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- beforemtd -->
+        <test-method signature="verifyBrokenLinks()[pri:2, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="verifyBrokenLinks" finished-at="2026-03-14T13:23:11 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLinks -->
+        <test-method is-config="true" signature="screenshotMethod(org.openqa.selenium.WebDriver,java.lang.String)[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="screenshotMethod" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotMethod -->
+        <test-method signature="verifyURL(java.lang.String)[pri:3, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="verifyURL" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [verifyURL] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [verifyURL] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="beforemtd" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemtd -->
+        <test-method signature="verifyPageTitle()[pri:4, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="verifyPageTitle" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="screenshotMethod(org.openqa.selenium.WebDriver,java.lang.String)[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="screenshotMethod" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotMethod -->
+        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="beforemtd" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemtd -->
+        <test-method signature="verifyclickEnroll()[pri:5, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="verifyclickEnroll" finished-at="2026-03-14T13:23:11 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickEnroll -->
+        <test-method is-config="true" signature="screenshotMethod(org.openqa.selenium.WebDriver,java.lang.String)[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="screenshotMethod" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotMethod -->
+        <test-method is-config="true" signature="beforemtd()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="beforemtd" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemtd -->
+        <test-method signature="verifyclickNewWindow()[pri:6, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="verifyclickNewWindow" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest, Method, Object[], ITestResult> into a @AfterMethod annotated screenshotMethod.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickNewWindow -->
+        <test-method is-config="true" signature="screenshotMethod(org.openqa.selenium.WebDriver,java.lang.String)[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="screenshotMethod" finished-at="2026-03-14T13:23:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testpkg.HomeToolsTest@4116aac9]" started-at="2026-03-14T13:23:11 IST" name="teardown" finished-at="2026-03-14T13:23:11 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testpkg.HomeToolsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
